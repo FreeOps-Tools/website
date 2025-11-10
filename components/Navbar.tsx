@@ -10,8 +10,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <header className="sticky top-0 z-40">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-transparent backdrop-blur-sm" />
+    <header className="sticky top-0 z-40 border-b border-border/60 bg-base/90 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-10">
         <Link href="/" className="flex items-center gap-2 font-display text-lg tracking-wide text-text-primary">
           <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl bg-accent-primary/20 text-accent-primary">
