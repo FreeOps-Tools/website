@@ -2,6 +2,16 @@
 import { Octokit } from "@octokit/rest";
 import fs from "node:fs";
 import path from "node:path";
+import { config as loadEnv } from "dotenv";
+
+const envFiles = [".env.local", ".env"];
+for (const file of envFiles) {
+  const resolved = path.join(process.cwd(), file);
+  if (fs.existsSync(resolved)) {
+    loadEnv({ path: resolved });
+    break;
+  }
+}
 
 type Project = {
   id: number;
