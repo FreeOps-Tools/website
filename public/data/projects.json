@@ -1,4 +1,50 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "id": 612259171,
+      "name": "LogIQ",
+      "description": "LogIQ is an open-source web analysing tool.",
+      "html_url": "https://github.com/FreeOps-Tools/LogIQ",
+      "homepage": "https://logiq.netlify.app",
+      "stargazers_count": 10,
+      "open_issues_count": 8,
+      "updated_at": "2025-05-09T09:33:50Z",
+      "topics": [
+        "analysis",
+        "downtime-notifer",
+        "hacktoberfest",
+        "hacktoberfest-accepted",
+        "hacktoberfest2023",
+        "insights",
+        "logging",
+        "nodejs",
+        "open-source",
+        "opensource",
+        "performance",
+        "reactjs",
+        "status-page",
+        "uptime-monitor"
+      ],
+      "language": "JavaScript"
+    },
+    {
+      "id": 620976272,
+      "name": ".github",
+      "description": "FreeOps aimed at developing competitive tools with open source.",
+      "html_url": "https://github.com/FreeOps-Tools/.github",
+      "homepage": "https://devlogiq.netlify.app/",
+      "stargazers_count": 0,
+      "open_issues_count": 0,
+      "updated_at": "2023-03-29T21:42:12Z",
+      "topics": [
+        "monitoring",
+        "open-source",
+        "opensource",
+        "profile",
+        "profile-readme",
+        "tools"
+      ],
+      "language": null
+    }
+  ]
 }
-
