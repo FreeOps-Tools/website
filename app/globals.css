@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #04060A;
+  --text: #F5F8FF;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.glass {
+  background: rgba(8, 18, 32, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(80, 244, 255, 0.2);
+  border-radius: 16px;
+}
+

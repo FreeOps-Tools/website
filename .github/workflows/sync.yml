@@ -1,0 +1,59 @@
+name: Sync org data and build
+
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Repo topic to include'
+        required: false
+        default: 'opensource'
+  schedule:
+    - cron: '0 3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      ORG: ${{ vars.GITHUB_ORG || github.repository_owner }}
+      TOPIC: ${{ inputs.topic || 'opensource' }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Fetch org data
+        run: npm run fetch:data
+        env:
+          ORG: ${{ env.ORG }}
+          TOPIC: ${{ env.TOPIC }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit data if changed
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data/*.json
+            git commit -m "chore(data): sync org data [skip ci]"
+            git push
+          else
+            echo "No data changes."
+          fi
+
+      - name: Build site
+        run: npm run build
+
