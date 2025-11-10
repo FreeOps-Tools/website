@@ -26,6 +26,8 @@ export default function Navbar() {
           ))}
           <a
             href="https://discord.gg/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-full border border-accent-primary/40 px-4 py-2 font-medium text-text-primary transition hover:border-accent-primary"
           >
             Join Discord

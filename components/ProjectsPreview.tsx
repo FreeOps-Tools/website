@@ -61,11 +61,21 @@ export default function ProjectsPreview() {
             </div>
           </div>
           <div className="mt-auto flex gap-3 text-sm font-medium">
-            <a href={p.html_url} className="text-accent-primary transition hover:underline">
+            <a
+              href={p.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-primary transition hover:underline"
+            >
               View Code
             </a>
             {p.homepage ? (
-              <a href={p.homepage} className="text-accent-primary transition hover:underline">
+              <a
+                href={p.homepage}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-primary transition hover:underline"
+              >
                 Live Demo
               </a>
             ) : null}

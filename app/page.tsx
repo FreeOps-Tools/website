@@ -50,6 +50,8 @@ export default function HomePage() {
             </Link>
             <a
               href="https://github.com/FreeOps-Tools"
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full border border-accent-primary/50 px-7 py-3 text-sm font-semibold text-text-primary transition hover:border-accent-primary"
             >
               Star the Org

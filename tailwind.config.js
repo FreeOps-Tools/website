@@ -18,8 +18,8 @@ module.exports = {
         border: "var(--border)"
       },
       fontFamily: {
-        display: ["var(--font-sora)", "system-ui", "sans-serif"],
-        body: ["var(--font-inter)", "system-ui", "sans-serif"]
+        display: ["'Sora'", "system-ui", "sans-serif"],
+        body: ["'Inter'", "system-ui", "sans-serif"]
       }
     }
   },
