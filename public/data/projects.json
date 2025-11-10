@@ -28,23 +28,21 @@
       "language": "JavaScript"
     },
     {
-      "id": 620976272,
-      "name": ".github",
-      "description": "FreeOps aimed at developing competitive tools with open source.",
-      "html_url": "https://github.com/FreeOps-Tools/.github",
-      "homepage": "https://devlogiq.netlify.app/",
+      "id": 1093416506,
+      "name": "website",
+      "description": "Our website",
+      "html_url": "https://github.com/FreeOps-Tools/website",
+      "homepage": "",
       "stargazers_count": 0,
       "open_issues_count": 0,
-      "updated_at": "2023-03-29T21:42:12Z",
+      "updated_at": "2025-11-10T14:43:15Z",
       "topics": [
-        "monitoring",
+        "community",
         "open-source",
         "opensource",
-        "profile",
-        "profile-readme",
-        "tools"
+        "website"
       ],
-      "language": null
+      "language": "TypeScript"
     }
   ]
 }
