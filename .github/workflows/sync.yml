@@ -19,7 +19,8 @@ jobs:
     env:
       ORG: ${{ vars.GITHUB_ORG || github.repository_owner }}
       TOPIC: ${{ inputs.topic || 'opensource' }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Prefer a custom PAT secret (FREEOPS_TOKEN). Fallback to default GITHUB_TOKEN if not set.
+      GITHUB_TOKEN: ${{ secrets.FREEOPS_TOKEN || secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,7 +41,7 @@ jobs:
         env:
           ORG: ${{ env.ORG }}
           TOPIC: ${{ env.TOPIC }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ env.GITHUB_TOKEN }}
 
       - name: Commit data if changed
         run: |
