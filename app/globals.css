@@ -3,8 +3,23 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: dark;
   --bg: #04060A;
+  --bg-soft: rgba(8, 18, 32, 0.6);
+  --bg-card: rgba(8, 18, 32, 0.8);
   --text: #F5F8FF;
+  --text-subtle: #B7C2D7;
+  --border: rgba(80, 244, 255, 0.2);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f5f7fb;
+  --bg-soft: rgba(255, 255, 255, 0.7);
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --text: #0d1321;
+  --text-subtle: #48546a;
+  --border: rgba(0, 0, 0, 0.1);
 }
 
 html, body {
@@ -14,9 +29,14 @@ html, body {
 }
 
 .glass {
-  background: rgba(8, 18, 32, 0.6);
+  background: var(--bg-soft);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(80, 244, 255, 0.2);
+  border: 1px solid var(--border);
   border-radius: 16px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
 }
 

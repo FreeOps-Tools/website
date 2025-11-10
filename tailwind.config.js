@@ -4,17 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        base: "#04060A",
-        elevated: "rgba(8,18,32,0.6)",
+        base: "var(--bg)",
+        elevated: "var(--bg-soft)",
         accent: {
           primary: "#50F4FF",
           secondary: "#936BFF",
           hot: "#FF5C98"
         },
         text: {
-          primary: "#F5F8FF",
-          secondary: "#B7C2D7"
-        }
+          primary: "var(--text)",
+          secondary: "var(--text-subtle)"
+        },
+        border: "var(--border)"
       },
       fontFamily: {
         display: ["var(--font-sora)", "system-ui", "sans-serif"],

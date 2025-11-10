@@ -19,14 +19,27 @@ export default function ContributorsPreview() {
   }
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+    <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
       {top.map((c) => (
-        <a key={c.id} href={c.html_url} className="glass p-3 flex items-center gap-3 hover:scale-[1.01] transition">
+        <a
+          key={c.id}
+          href={c.html_url}
+          className="card group flex items-center gap-3 rounded-2xl p-3 transition hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(6,10,20,0.25)]"
+        >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={c.avatar_url} alt={c.login} className="w-8 h-8 rounded-full" />
+          <img
+            src={c.avatar_url}
+            alt={c.login}
+            className="h-9 w-9 flex-shrink-0 rounded-full border"
+            style={{ borderColor: "var(--border)" }}
+          />
           <div className="min-w-0">
-            <div className="truncate text-sm">{c.name || c.login}</div>
-            <div className="text-xs text-text-secondary">{c.contributions ?? 0} contributions</div>
+            <div className="truncate text-sm font-medium text-text-primary">
+              {c.name || c.login}
+            </div>
+            <div className="text-xs text-text-secondary">
+              {c.contributions ?? 0} contributions
+            </div>
           </div>
         </a>
       ))}
