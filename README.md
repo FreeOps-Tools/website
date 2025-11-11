@@ -42,6 +42,7 @@ GITHUB_TOKEN=ghp_xxx
 ## Syncing data
 
 - Run locally:
+
   ```sh
   ORG=your-org TOPIC=opensource GITHUB_TOKEN=ghp_xxx npm run fetch:data
 
