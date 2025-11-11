@@ -1,6 +1,6 @@
 # FreeOps Tool Website
 
-A modern static site showcasing FreeOps open-source projects and contributors, with automated data sync from your GitHub organization.
+A modern static site showcasing FreeOps open-source projects and contributors, with automated data sync from our GitHub organization.
 
 ## Quick start
 
