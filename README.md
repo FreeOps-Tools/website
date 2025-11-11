@@ -5,15 +5,20 @@ A modern static site showcasing FreeOps open-source projects and contributors, w
 ## Quick start
 
 1. Install dependencies
-   ```
+
+   ```sh
    npm install
-   ```
+
+   ```sh
 2. Development
-   ```
+
+   ```sh
    npm run dev
-   ```
+
+   ```sh
 3. Build
-   ```
+
+   ```sh
    npm run build
    ```
 
@@ -28,7 +33,7 @@ A modern static site showcasing FreeOps open-source projects and contributors, w
 
 Create `.env.local` (git-ignored) with:
 
-```
+```sh
 ORG=your-org
 TOPIC=opensource
 GITHUB_TOKEN=ghp_xxx
@@ -37,9 +42,10 @@ GITHUB_TOKEN=ghp_xxx
 ## Syncing data
 
 - Run locally:
-  ```
+  ```sh
   ORG=your-org TOPIC=opensource GITHUB_TOKEN=ghp_xxx npm run fetch:data
-  ```
+
+  ```sh
 - This writes JSON under `public/data`, which the UI consumes.
 
 ## Automation
@@ -48,6 +54,4 @@ GITHUB_TOKEN=ghp_xxx
   - Fetch repos with the `opensource` topic
   - Aggregate contributors
   - Commit updated JSON when changed
-  - Build the site
-
-Deploy to your host (e.g., Vercel/Netlify) to build on push.
+  - Redeploy the site
