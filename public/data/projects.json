@@ -50,10 +50,10 @@
       "name": "website",
       "description": "Our website",
       "html_url": "https://github.com/FreeOps-Tools/website",
-      "homepage": "",
+      "homepage": "https://freeops.netlify.app",
       "stargazers_count": 0,
       "open_issues_count": 0,
-      "updated_at": "2025-11-10T14:54:33Z",
+      "updated_at": "2025-11-11T18:13:34Z",
       "topics": [
         "community",
         "open-source",
