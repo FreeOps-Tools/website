@@ -17,23 +17,10 @@ type Project = {
   html_url: string;
 };
 
-const contributorsRaw = (contributorsData.contributors as Contributor[] | undefined) ?? [];
+const contributors = (contributorsData.contributors as Contributor[] | undefined) ?? [];
 const projects = (projectsData.projects as Project[] | undefined) ?? [];
 
-const aggregatedContributors = Array.from(
-  contributorsRaw.reduce((map, entry) => {
-    const key = entry.login || String(entry.id);
-    const existing = map.get(key);
-    if (existing) {
-      existing.contributions = (existing.contributions ?? 0) + (entry.contributions ?? 0);
-    } else {
-      map.set(key, { ...entry });
-    }
-    return map;
-  }, new Map<string, Contributor>())
-);
-
-const sortedContributors = aggregatedContributors.sort(
+const sortedContributors = [...contributors].sort(
   (a, b) => (b.contributions ?? 0) - (a.contributions ?? 0)
 );
 

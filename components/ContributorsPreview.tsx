@@ -11,20 +11,7 @@ type Contributor = {
 };
 
 export default function ContributorsPreview() {
-  const contributorsRaw = (data.contributors as Contributor[] | undefined) ?? [];
-  const contributors = Array.from(
-    contributorsRaw.reduce((map, entry) => {
-      const key = entry.login || String(entry.id);
-      const existing = map.get(key);
-      if (existing) {
-        existing.contributions = (existing.contributions ?? 0) + (entry.contributions ?? 0);
-      } else {
-        map.set(key, { ...entry });
-      }
-      return map;
-    }, new Map<string, Contributor>())
-  );
-
+  const contributors = (data.contributors as Contributor[] | undefined) ?? [];
   const sorted = contributors.sort(
     (a, b) => (b.contributions ?? 0) - (a.contributions ?? 0)
   );
