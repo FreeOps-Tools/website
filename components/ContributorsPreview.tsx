@@ -12,7 +12,10 @@ type Contributor = {
 
 export default function ContributorsPreview() {
   const contributors = (data.contributors as Contributor[] | undefined) ?? [];
-  const top = contributors.slice(0, 12);
+  const sorted = contributors.sort(
+    (a, b) => (b.contributions ?? 0) - (a.contributions ?? 0)
+  );
+  const top = sorted.slice(0, 12);
 
   if (top.length === 0) {
     return <div className="text-text-secondary">Contributors will appear after the first sync.</div>;
