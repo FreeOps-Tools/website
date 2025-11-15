@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { ThemeProvider } from "../components/theme-provider";
 
 export const metadata: Metadata = {
@@ -13,8 +14,11 @@ export default function RootLayout(props: { children: React.ReactNode }) {
     <html lang="en" suppressHydrationWarning>
       <body className="min-h-screen bg-base text-text-primary antialiased">
         <ThemeProvider>
-          <Navbar />
-          <div className="pb-16">{props.children}</div>
+          <div className="flex min-h-screen flex-col">
+            <Navbar />
+            <main className="flex-1">{props.children}</main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>
