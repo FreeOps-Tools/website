@@ -46,6 +46,42 @@
       "language": "JavaScript"
     },
     {
+      "id": 628278761,
+      "name": "CLI",
+      "description": "LogIQ CLI Tool",
+      "html_url": "https://github.com/FreeOps-Tools/CLI",
+      "homepage": "",
+      "stargazers_count": 0,
+      "open_issues_count": 0,
+      "updated_at": "2025-11-15T16:18:33Z",
+      "topics": [
+        "cli",
+        "monitoring",
+        "opensource",
+        "statuschecks",
+        "tools"
+      ],
+      "language": null
+    },
+    {
+      "id": 688688957,
+      "name": "postpilot",
+      "description": "PostPilot - Open Source Social Media Posting App",
+      "html_url": "https://github.com/FreeOps-Tools/postpilot",
+      "homepage": "",
+      "stargazers_count": 3,
+      "open_issues_count": 0,
+      "updated_at": "2025-11-15T16:16:46Z",
+      "topics": [
+        "open-source",
+        "opensource",
+        "socail-auth",
+        "social-media",
+        "social-network"
+      ],
+      "language": "CSS"
+    },
+    {
       "id": 1093416506,
       "name": "website",
       "description": "Our website",
@@ -53,7 +89,7 @@
       "homepage": "https://freeops.netlify.app",
       "stargazers_count": 0,
       "open_issues_count": 0,
-      "updated_at": "2025-11-14T03:46:34Z",
+      "updated_at": "2025-11-15T16:15:17Z",
       "topics": [
         "community",
         "open-source",
