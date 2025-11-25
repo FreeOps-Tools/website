@@ -1,13 +1,13 @@
 {
   "contributors": [
     {
-      "id": 67606619,
-      "login": "Zeighnab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
-      "html_url": "https://github.com/Zeighnab",
+      "id": 61375120,
+      "login": "sudhz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61375120?v=4",
+      "html_url": "https://github.com/sudhz",
       "contributions": 1,
-      "name": "Zainab Olaniyan",
-      "twitter_username": "iam_laitan"
+      "name": "Sudhanshu Makwana",
+      "twitter_username": null
     },
     {
       "id": 70147534,
@@ -28,13 +28,13 @@
       "twitter_username": "code_breaker19"
     },
     {
-      "id": 61375120,
-      "login": "sudhz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61375120?v=4",
-      "html_url": "https://github.com/sudhz",
+      "id": 67606619,
+      "login": "Zeighnab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
+      "html_url": "https://github.com/Zeighnab",
       "contributions": 1,
-      "name": "Sudhanshu Makwana",
-      "twitter_username": null
+      "name": "Zainab Olaniyan",
+      "twitter_username": "iam_laitan"
     },
     {
       "id": 69714197,
@@ -50,7 +50,7 @@
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 13,
+      "contributions": 14,
       "name": null,
       "twitter_username": null
     }
