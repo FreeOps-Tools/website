@@ -71,7 +71,7 @@
       "homepage": "",
       "stargazers_count": 3,
       "open_issues_count": 0,
-      "updated_at": "2025-11-15T16:16:46Z",
+      "updated_at": "2025-11-30T16:28:33Z",
       "topics": [
         "open-source",
         "opensource",
@@ -79,7 +79,7 @@
         "social-media",
         "social-network"
       ],
-      "language": "CSS"
+      "language": "TypeScript"
     },
     {
       "id": 1093416506,
@@ -89,7 +89,7 @@
       "homepage": "https://freeops.netlify.app",
       "stargazers_count": 0,
       "open_issues_count": 0,
-      "updated_at": "2025-11-29T03:46:09Z",
+      "updated_at": "2025-11-30T03:57:40Z",
       "topics": [
         "community",
         "open-source",
@@ -97,6 +97,26 @@
         "website"
       ],
       "language": "TypeScript"
+    },
+    {
+      "id": 1097705063,
+      "name": "awesome-devops-infra",
+      "description": "The ultimate, real-world IaC template library for DevOps engineers; simple, production-ready, copy-and-paste deployable.",
+      "html_url": "https://github.com/FreeOps-Tools/awesome-devops-infra",
+      "homepage": "",
+      "stargazers_count": 0,
+      "open_issues_count": 0,
+      "updated_at": "2025-11-30T16:35:52Z",
+      "topics": [
+        "devops",
+        "freeops",
+        "iac",
+        "infrastructure",
+        "open-source",
+        "opensource",
+        "production"
+      ],
+      "language": null
     }
   ]
 }
