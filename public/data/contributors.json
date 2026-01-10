@@ -10,15 +10,6 @@
       "twitter_username": "iam_laitan"
     },
     {
-      "id": 61375120,
-      "login": "sudhz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61375120?v=4",
-      "html_url": "https://github.com/sudhz",
-      "contributions": 1,
-      "name": "Sudhanshu Makwana",
-      "twitter_username": null
-    },
-    {
       "id": 70147534,
       "login": "eabrahym75",
       "avatar_url": "https://avatars.githubusercontent.com/u/70147534?v=4",
@@ -26,6 +17,15 @@
       "contributions": 1,
       "name": "Ibraheem Ayantola",
       "twitter_username": "eabrahym75"
+    },
+    {
+      "id": 61375120,
+      "login": "sudhz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61375120?v=4",
+      "html_url": "https://github.com/sudhz",
+      "contributions": 1,
+      "name": "Sudhanshu Makwana",
+      "twitter_username": null
     },
     {
       "id": 79677353,
@@ -41,7 +41,7 @@
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 59,
+      "contributions": 60,
       "name": null,
       "twitter_username": null
     },
