@@ -1,6 +1,15 @@
 {
   "contributors": [
     {
+      "id": 79677353,
+      "login": "victoriaEssien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
+      "html_url": "https://github.com/victoriaEssien",
+      "contributions": 2,
+      "name": "Victoria Essien",
+      "twitter_username": "code_breaker19"
+    },
+    {
       "id": 67606619,
       "login": "Zeighnab",
       "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
@@ -32,18 +41,9 @@
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 65,
+      "contributions": 66,
       "name": null,
       "twitter_username": null
-    },
-    {
-      "id": 79677353,
-      "login": "victoriaEssien",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
-      "html_url": "https://github.com/victoriaEssien",
-      "contributions": 2,
-      "name": "Victoria Essien",
-      "twitter_username": "code_breaker19"
     },
     {
       "id": 69714197,
