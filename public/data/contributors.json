@@ -10,6 +10,15 @@
       "twitter_username": "iam_laitan"
     },
     {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "html_url": "https://github.com/apps/github-actions",
+      "contributions": 97,
+      "name": null,
+      "twitter_username": null
+    },
+    {
       "id": 70147534,
       "login": "eabrahym75",
       "avatar_url": "https://avatars.githubusercontent.com/u/70147534?v=4",
@@ -19,12 +28,12 @@
       "twitter_username": "eabrahym75"
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "html_url": "https://github.com/apps/github-actions",
-      "contributions": 96,
-      "name": null,
+      "id": 79677353,
+      "login": "victoriaEssien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
+      "html_url": "https://github.com/victoriaEssien",
+      "contributions": 2,
+      "name": "Victoria Essien",
       "twitter_username": null
     },
     {
@@ -34,15 +43,6 @@
       "html_url": "https://github.com/sudhz",
       "contributions": 1,
       "name": "Sudhanshu Makwana",
-      "twitter_username": null
-    },
-    {
-      "id": 79677353,
-      "login": "victoriaEssien",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
-      "html_url": "https://github.com/victoriaEssien",
-      "contributions": 2,
-      "name": "Victoria Essien",
       "twitter_username": null
     },
     {
