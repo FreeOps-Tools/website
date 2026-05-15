@@ -10,15 +10,6 @@
       "twitter_username": null
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "html_url": "https://github.com/apps/github-actions",
-      "contributions": 184,
-      "name": null,
-      "twitter_username": null
-    },
-    {
       "id": 67606619,
       "login": "Zeighnab",
       "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
@@ -43,6 +34,15 @@
       "html_url": "https://github.com/victoriaEssien",
       "contributions": 2,
       "name": "Victoria Essien",
+      "twitter_username": null
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "html_url": "https://github.com/apps/github-actions",
+      "contributions": 185,
+      "name": null,
       "twitter_username": null
     },
     {
