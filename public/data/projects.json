@@ -6,9 +6,9 @@
       "description": "LogIQ is an open-source web analysing tool.",
       "html_url": "https://github.com/FreeOps-Tools/LogIQ",
       "homepage": "https://logiq.netlify.app",
-      "stargazers_count": 10,
+      "stargazers_count": 11,
       "open_issues_count": 8,
-      "updated_at": "2025-11-20T22:53:46Z",
+      "updated_at": "2026-08-07T12:39:57Z",
       "topics": [
         "analysis",
         "downtime-notifer",
@@ -89,7 +89,7 @@
       "homepage": "https://freeops.netlify.app",
       "stargazers_count": 1,
       "open_issues_count": 0,
-      "updated_at": "2026-08-06T05:51:25Z",
+      "updated_at": "2026-08-07T04:56:36Z",
       "topics": [
         "community",
         "open-source",
