@@ -10,6 +10,15 @@
       "twitter_username": null
     },
     {
+      "id": 69714197,
+      "login": "rufilboss",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69714197?v=4",
+      "html_url": "https://github.com/rufilboss",
+      "contributions": 1,
+      "name": "Ilyas Rufai",
+      "twitter_username": "rufilboss"
+    },
+    {
       "id": 67606619,
       "login": "Zeighnab",
       "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
@@ -41,18 +50,9 @@
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 318,
+      "contributions": 319,
       "name": null,
       "twitter_username": null
-    },
-    {
-      "id": 69714197,
-      "login": "rufilboss",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69714197?v=4",
-      "html_url": "https://github.com/rufilboss",
-      "contributions": 1,
-      "name": "Ilyas Rufai",
-      "twitter_username": "rufilboss"
     }
   ]
 }
