@@ -1,24 +1,6 @@
 {
   "contributors": [
     {
-      "id": 67606619,
-      "login": "Zeighnab",
-      "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
-      "html_url": "https://github.com/Zeighnab",
-      "contributions": 1,
-      "name": "Zainab Olaniyan",
-      "twitter_username": "iam_laitan"
-    },
-    {
-      "id": 79677353,
-      "login": "victoriaEssien",
-      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
-      "html_url": "https://github.com/victoriaEssien",
-      "contributions": 2,
-      "name": "Victoria Essien",
-      "twitter_username": null
-    },
-    {
       "id": 70147534,
       "login": "eabrahym75",
       "avatar_url": "https://avatars.githubusercontent.com/u/70147534?v=4",
@@ -50,9 +32,27 @@
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
-      "contributions": 330,
+      "contributions": 331,
       "name": null,
       "twitter_username": null
+    },
+    {
+      "id": 79677353,
+      "login": "victoriaEssien",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79677353?v=4",
+      "html_url": "https://github.com/victoriaEssien",
+      "contributions": 2,
+      "name": "Victoria Essien",
+      "twitter_username": null
+    },
+    {
+      "id": 67606619,
+      "login": "Zeighnab",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67606619?v=4",
+      "html_url": "https://github.com/Zeighnab",
+      "contributions": 1,
+      "name": "Zainab Olaniyan",
+      "twitter_username": "iam_laitan"
     }
   ]
 }
